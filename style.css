@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Roboto+Slab:400,700');
+/*
+font-family: 'Arbutus Slab', serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+
+
+body{
+  background-color: #F4F4F4;
+  overflow:scroll;
+}
+/*** home page and heads ***/
+
+#logo{
+  text-align: center;
+}
+
+#coverpic{
+  height: 900px;
+  width: auto;
+  background-image: url(images/bgpic.png);
+  background-size: cover;
+}
+
+
+#headline{
+  width: 550px;
+  float: left;
+  padding-left: 100px;
+}
+
+#welcome{
+  padding-top: 60px;
+
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+#description{
+  padding-top: 30px;
+
+  font-size: 13pt;
+  font-family: 'Roboto Slab', serif;
+  line-height: 25pt;
+  letter-spacing: 1px;
+  color:#494848;
+}
+
+/**** navigation styles****/
+
+nav{
+  text-align: center;
+
+  list-style-type: none;
+
+  padding-bottom: 30px;
+}
+
+nav ul li{
+  display:inline;
+
+  font-size: 15px;
+  font-family: 'Arbutus Slab', serif;
+  letter-spacing: 2px;
+
+  padding: 30px;
+  }
+
+nav ul li a{
+  color: #6D6D6D;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover{
+  color: #A59477;
+}
+
+nav ul li a:active{
+  color:#66563b;
+}
+
+.currentpage {
+  color:#957E55;
+}
+
+
+.bgimage {
+  background-size: cover;
+
+  min-width: 800px;
+  height: 500px;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 3px solid #ddd;
+  padding: 20px;
+  border: 1px solid #ddd;
+
+
+
+}
+
+.bgimage:hover{
+  box-shadow: 1px 1px 1px 1px #c9c3b9, 1px 1px 1px 1px #c9c3b9;
+
+}
+
+
+
+/*** past images ***/
+
+#gothic{
+  background-image: url("images/gothic.jpg");
+}
+
+#bemboo{
+  background-image: url("images/bemboo.jpg");
+  background-position: 0px -800px;
+}
+
+
+#bodoni{
+  background-image: url("images/bodoni.jpg");
+  background-position: -10px;
+}
+
+
+
+/***** present images ****/
+
+#sans{
+  background-image: url("images/sans.jpg");
+}
+
+#retro{
+  background-image: url("images/retro.jpg");
+}
+
+#handwritten{
+  background-image: url("images/handwritten.jpg");
+}
+
+
+
+/***** future images ****/
+
+#mixtype{
+  background-image: url("images/mix.jpg");
+}
+
+#mini{
+  background-image: url("images/mini.png");
+  margin-bottom: 50px;
+
+}
+
+#futureretro{
+  background-image: url("images/futureretro.jpg");
+  background-position: center;
+  margin-bottom: 50px;
+}
+
+/***** Divider *****/
+
+hr {
+
+    margin:20px;
+    padding-top:10px;
+    border: none;
+    border-top: 1px solid #957e55;
+    color: #957e55;
+    text-align: center;
+}
+hr:after {
+
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -1em;
+    font-size: 2em;
+    padding: 0 3em;
+    background-color: #F4F4F4;
+}
+
+
+
+/**** body text ****/
+
+#info{
+  width: 900px;
+  margin: auto;
+
+
+}
+
+#title, #subtitle, #caption{
+  text-align: center;
+}
+
+#caption{
+  padding-bottom: 40px;
+}
+
+#title{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 20pt;
+  letter-spacing: 10px;
+
+
+  color: #333333;
+
+  text-transform: uppercase;
+
+}
+
+#subtitle{
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #8e8d8d;
+
+}
+
+
+p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #494848;
+
+}
+
+
+#sources{
+  text-align: left;
+  text-indent: inherit;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+
+/***** Footer *****/
+
+
+footer{
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #8e8d8d;
+
+  padding: 50px;
+
+}
